@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0000FF" >
+    <include layout="@layout/title"/>
+    <Button 
+        android:id="@+id/bt_usertostopcar"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:text="去停车"
+        android:background="@drawable/common_item_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+    <Button 
+        android:id="@+id/bt_query_cost"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:text="消费记录查询"
+        android:background="@drawable/common_item_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"/>
+
+</LinearLayout>

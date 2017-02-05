@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center_horizontal">
+    <Button 
+        android:id="@+id/bt_pop_setup"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:text="设置"
+        android:background="@drawable/common_item_bg"/>
+    <ImageView 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e6e6e6"/>
+    <Button 
+        android:id="@+id/bt_pop_count"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:text="数据统计"
+        android:background="@drawable/common_item_bg"/>
+    <ImageView 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#e6e6e6"/>
+    <Button 
+        android:id="@+id/bt_pop_revenue"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:text="营收情况"
+        android:background="@drawable/common_item_bg"/>
+    
+
+</LinearLayout>

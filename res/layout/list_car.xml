@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="@dimen/height_120dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:paddingLeft="10dp">
+
+        <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/paking_car"
+            android:layout_gravity="center_vertical"/>
+        <LinearLayout 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical">
+	        <TextView 
+	            android:id="@+id/tv_car_lnum"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="车牌号：粤95000"/>
+	        <TextView
+	            android:id="@+id/tv_car_in_time" 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="入场时间：8:50"
+	            android:layout_marginTop="5dp"/>
+	        <TextView
+	            android:id="@+id/tv_car_time" 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="已停时间：2小时"
+	            android:layout_marginTop="5dp"/>
+	        <TextView 
+	            android:id="@+id/tv_car_places_num"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="车位号：2号"
+	            android:layout_marginTop="5dp"/>
+	        <TextView 
+	            android:id="@+id/tv_car_cost"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="当前消费：55"
+	            android:layout_marginTop="5dp"/>
+        </LinearLayout>        
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_88dp"
+    android:background="#FFFF00" 
+    android:orientation="horizontal" 
+    android:paddingLeft="10dp">
+        <ImageView 
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/paking_car"
+            android:layout_gravity="center_vertical"/>
+        <LinearLayout 
+            android:id="@+id/ll_paking_item"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical">
+	        <TextView 
+	            android:id="@+id/tv_places_name"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="大学城停车场"/>
+	        <TextView
+	            android:id="@+id/tv_places_location" 
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="位置：大学城"
+	            android:layout_marginTop="5dp"/>
+	        <TextView 
+	            android:id="@+id/tv_places_count"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:text="总车位：50"
+	            android:layout_marginTop="5dp"/>
+        </LinearLayout>        
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pakingsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterAcitvity"/>
+        <activity android:name=".Forget_PasswordActivity"/>
+        <activity android:name=".Change_PasswordActivity"/>
+        <activity android:name=".Admin_mainAcitivity"/>
+        <activity android:name=".Pakiing_infoActivity"/>
+        <activity android:name=".SetUpActivity"/>
+        <activity android:name=".User_MainActivity"/>
+        <activity android:name=".UserPakingAcitvity"/>
+        <activity android:name=".UserStopCarActivity"/>
+        <activity android:name=".ShowUserCostAcitivity"/>
+        <activity android:name=".DataStatisAcitivity"/>
+        <activity android:name=".AddinitdataActivity"/>
+    </application>
+
+</manifest>
